@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/nolan/Downloads/2D_IsoTilemaps-master/2D_IsoTilemaps_Project
+/Users/nolan/Unity Projects/2dIsometricTemplate/2D_IsoTilemaps_Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51197
-Successfully changed project path to: /Users/nolan/Downloads/2D_IsoTilemaps-master/2D_IsoTilemaps_Project
-/Users/nolan/Downloads/2D_IsoTilemaps-master/2D_IsoTilemaps_Project
+51436
+Successfully changed project path to: /Users/nolan/Unity Projects/2dIsometricTemplate/2D_IsoTilemaps_Project
+/Users/nolan/Unity Projects/2dIsometricTemplate/2D_IsoTilemaps_Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/nolan/Downloads/2D_IsoTilemaps-mast
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 46.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/nolan/Downloads/2D_IsoTilemaps-master/2D_IsoTilemaps_Project/Assets
+[Subsystems] Discovering subsystems at path /Users/nolan/Unity Projects/2dIsometricTemplate/2D_IsoTilemaps_Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 Max (high power)
 Metal devices available: 1
@@ -69,92 +69,92 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56171
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56893
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000637 seconds.
+Registered in 0.000760 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.377 seconds
+- Completed reload, in  1.395 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1379ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1396ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
 		EndReloadAssembly (1032ms)
-			LoadAssemblies (108ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (714ms)
+			SetupLoadedEditorAssemblies (705ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (48ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
 				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (470ms)
-				ProcessInitializeOnLoadMethodAttributes (173ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001202 seconds.
+Registered in 0.001482 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.291 seconds
+- Completed reload, in  2.239 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2294ms)
-		BeginReloadAssembly (226ms)
+	ReloadAssembly (2242ms)
+		BeginReloadAssembly (221ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
+			DisableScriptedObjects (38ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1785ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (1742ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (244ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1219ms)
+			SetupLoadedEditorAssemblies (1169ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (826ms)
-				ProcessInitializeOnLoadMethodAttributes (269ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (793ms)
+				ProcessInitializeOnLoadMethodAttributes (253ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2343 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 58 unused Assets / (44.3 KB). Loaded Objects now: 2778.
-Memory consumption went from 183.9 MB to 183.8 MB.
-Total: 5.600541 ms (FindLiveObjects: 0.123417 ms CreateObjectMapping: 0.051750 ms MarkObjects: 5.324459 ms  DeleteObjects: 0.099834 ms)
+Memory consumption went from 184.0 MB to 183.9 MB.
+Total: 5.656542 ms (FindLiveObjects: 0.110042 ms CreateObjectMapping: 0.047250 ms MarkObjects: 5.394542 ms  DeleteObjects: 0.103791 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,121 +168,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8315.532087 seconds.
-  path: Assets/Characters/Witch
-  artifactKey: Guid(82b65e60d23a84fa590d4eca5e54e342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Witch using Guid(82b65e60d23a84fa590d4eca5e54e342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e627d1c5f3e3cd9e6615e06c60e5c4b') in 0.006619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Characters
-  artifactKey: Guid(fd2dafe0f0575bb49a9f71d0d38e74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters using Guid(fd2dafe0f0575bb49a9f71d0d38e74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2805374ee4096c9b006375d6d9dfaa36') in 0.000514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.302579 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/base01.asset
-  artifactKey: Guid(31f0467df86e14d48af8f0e4bf964d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/base01.asset using Guid(31f0467df86e14d48af8f0e4bf964d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf8f62ba906bf72c3fd8e1c14e26de9') in 0.753682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube08.asset
-  artifactKey: Guid(e748d2e479399244b93bc2783c87325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube08.asset using Guid(e748d2e479399244b93bc2783c87325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b32e85f2c04ccb8b900dd3cd8fd9d6b') in 0.008155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/base10.asset
-  artifactKey: Guid(0aaa9893dce6b7648a6c5bc9da1a00ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/base10.asset using Guid(0aaa9893dce6b7648a6c5bc9da1a00ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aca1689a5db37dd6e5b4787f64b5b9') in 0.004202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube04.asset
-  artifactKey: Guid(e47ab33d18ce19a42ab58a5349c180f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube04.asset using Guid(e47ab33d18ce19a42ab58a5349c180f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502cec42f9708ccc43569e447a28ba65') in 0.004716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube06.asset
-  artifactKey: Guid(63e3f893eb615ee408d14701087bf118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube06.asset using Guid(63e3f893eb615ee408d14701087bf118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd98525f773e0a16f434bb3bfc5f1e5f') in 0.004719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube15.asset
-  artifactKey: Guid(a131abcca42dbe9438c0725dd1a76943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube15.asset using Guid(a131abcca42dbe9438c0725dd1a76943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641dbb589352cf39511c66f6abae1db8') in 0.004450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/base03.asset
-  artifactKey: Guid(ad68a6909829d4a42bbf0b43270b1fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/base03.asset using Guid(ad68a6909829d4a42bbf0b43270b1fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4e713a8a48f820ca2f5a04371bf40a') in 0.004501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube01.asset
-  artifactKey: Guid(7f32039c55da1884687d6a26e1e96a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube01.asset using Guid(7f32039c55da1884687d6a26e1e96a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc58234c081ef3d2261dc1f17aeda02f') in 0.004732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube12.asset
-  artifactKey: Guid(a5a8519cc734112449f264af09d8b10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube12.asset using Guid(a5a8519cc734112449f264af09d8b10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d4566a17f70fd30ecc9410c2312133') in 0.004529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube14.asset
-  artifactKey: Guid(ef7c9b40a44950b4283eccff593cef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube14.asset using Guid(ef7c9b40a44950b4283eccff593cef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5be840c86986257e20a278bf2e31266') in 0.004967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube02.asset
-  artifactKey: Guid(81862fa37c2190b4cb061d2a6e47d489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube02.asset using Guid(81862fa37c2190b4cb061d2a6e47d489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ca6b39650b3fa3fd7dee9f0eed58f0') in 0.004593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube13.asset
-  artifactKey: Guid(82cc9099fa2c49e43b43ce88d0dcf499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube13.asset using Guid(82cc9099fa2c49e43b43ce88d0dcf499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385ba61552e40f0bf632de8672120eac') in 0.004978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/base11.asset
-  artifactKey: Guid(0be996db82a670b4d8315e7cacd49fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/base11.asset using Guid(0be996db82a670b4d8315e7cacd49fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121d800808d6fb86154709be6ec5a818') in 0.004775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/base04.asset
-  artifactKey: Guid(7f6f6721e792da848b6b13f8e7ab1740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/base04.asset using Guid(7f6f6721e792da848b6b13f8e7ab1740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a534d32dd7ceadaf56a5c953994549a5') in 0.004658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube07.asset
-  artifactKey: Guid(3f6162117848d974d93d2447365b5641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube07.asset using Guid(3f6162117848d974d93d2447365b5641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3883cc32d816cc0ecf5c7d5478eac205') in 0.004459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/slope.asset
-  artifactKey: Guid(2b1703db058bd9d4b95af532f3a5b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/slope.asset using Guid(2b1703db058bd9d4b95af532f3a5b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44548fb96342d75f9a23c1942a48b00a') in 0.004812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/base02.asset
-  artifactKey: Guid(a40393526042f8248b05fcfd1ba28914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/base02.asset using Guid(a40393526042f8248b05fcfd1ba28914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ced233414ac406a70f703f47126f11') in 0.004276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Tilemaps/Isometric/Tiles/Basic/cube10.asset
-  artifactKey: Guid(8a1396262a6d22e43b4d42ff4a0609e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemaps/Isometric/Tiles/Basic/cube10.asset using Guid(8a1396262a6d22e43b4d42ff4a0609e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a0d2fe79683ccbd547d19f945c90ad') in 0.004680 seconds 
+  Time since last request: 9395.765908 seconds.
+  path: Assets/Scripts/BasicCameraFollow.cs
+  artifactKey: Guid(3e512b9fd2f4b484db3736faef092851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BasicCameraFollow.cs using Guid(3e512b9fd2f4b484db3736faef092851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1072c617f6997753731ce9740cbf61') in 0.186670 seconds 

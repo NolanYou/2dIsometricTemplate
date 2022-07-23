@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//This script simply makes the camera folow smoothly
 public class BasicCameraFollow : MonoBehaviour 
 {
 
@@ -13,7 +14,8 @@ public class BasicCameraFollow : MonoBehaviour
 	{
 		startingPosition = transform.position;
 	}
-
+	
+	//Simple gliding motion, not sure what smooth damp is, assuming control loop or smth
 	void Update () 
 	{
 		if(followTarget != null)
